@@ -4,8 +4,11 @@
 ### Usage
 ```
   import face_align
+  #get the aligned face picture, inputing the file directory
   face_img = face_align.get_face_align(img)
+  #you have to turn off detection and align in DeepFace
   arcanalyze = DeepFace.analyze(img_path = face_img, actions = ['age', 'gender', 'race', 'emotion'],detector_backend='skip',align=False)
+  #also for getting the embedding of the face
   arcrep = DeepFace.represent(face_img, model_name = 'ArcFace', model = None, enforce_detection = True, detector_backend = 'skip', align = False, normalization = 'base')
  ```
 #### If you have more question, please raise an issue.
