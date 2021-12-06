@@ -1,5 +1,5 @@
 # InsightFace_align_in_DeepFace
-#### By looking into the align process of deepface, we found it using simple method so that sometimes it cannot handle face detection & alignment, thus we tried to use the alignment from InsightFace and replace it into DeepFace. It only requries minor change of DeepFace source code, and we need this repo to maintain the alignment and the source code.
+#### By looking into the align process of deepface, we found it using simple method so that sometimes it cannot handle complex face detection & alignment (E.g One-side face detection & alignment), thus we tried to use the alignment from InsightFace and apply it into DeepFace. It only requries minor change of DeepFace source code, and we need this repo to maintain the alignment and the source code.
 #### The represent() function in DeepFace does not take alignment as parameter, thus the modified DeepFace.py was proposed in this repository. You can use your own faces for testing by setting the alignment argument to False in DeepFace and importing modified DeepFace.py.
 ### Install requirements
 ```
