@@ -1,5 +1,5 @@
 # InsightFace_align_in_DeepFace
-#### Since the align process of deepface is too simple, sometimes naive, we decided to use the alignment from insightface into deepface, but it requies minor change of DeepFace source code, thus we need this repo to maintain the align and the source code.
+#### Since the align process of deepface is too simple, sometimes it may have negative results, thus we decided to use the alignment from insightface into deepface, but it requies minor change of DeepFace source code, thus we need this repo to maintain the align and the source code.
 #### The represent() function in DeepFace does not take align as parameter, thus I modified DeepFace.py in this repository, inorder to use you own align face, you have to turn off the alignment in the DeepFace, to do that, you only need to import my DeepFace.py.
 ### Install requirements
 ```
