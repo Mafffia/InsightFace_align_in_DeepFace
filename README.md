@@ -20,7 +20,7 @@
   arcrep = DeepFace.represent(face_aligned, model_name = 'ArcFace', model = None, enforce_detection = True, detector_backend = 'skip', align = False, normalization = 'base')
  ```
 
-#### In test_align.ipynb, I made an demo showing difference between face align in insightface and deepface.
+#### In test_align.ipynb, I made an demo showing the difference between InsightFace and DeepFace in face alignment.
 
 #### If you have more question, please raise an issue.
 
