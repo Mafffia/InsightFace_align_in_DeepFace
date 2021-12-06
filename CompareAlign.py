@@ -3,7 +3,7 @@ import cv2
 from insightface.app import FaceAnalysis
 import face_align
 import matplotlib.pyplot as plt
-from deepface import DeepFace
+import DeepFace
 from deepface.commons import functions
 
 
