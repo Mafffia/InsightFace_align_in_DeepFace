@@ -3,7 +3,7 @@
 #### The represent() function in DeepFace does not take align as parameter, thus I modified DeepFace.py in this repository, inorder to use you own align face, you have to turn off the alignment in the DeepFace, to do that, you only need to import my DeepFace.py.
 ### Install requirements
 ```
-  pip install -r requirements
+  pip install -r requirements.txt
 ```
 ### import face align and get aligned face
 ```
